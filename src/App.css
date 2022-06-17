@@ -1,0 +1,123 @@
+body {
+    background-color: #373941;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Info section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > * {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.info--photo {
+    border-radius: 16px 16px 0 0;
+}
+
+.info--name {
+    background-color: #1A1B21;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.info--occupation {
+    background-color: #1A1B21;
+    color: #F3BF99;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.info--website {
+    background-color: #1A1B21;
+    color: #F5F5F5;
+    font-size: 10px;
+    font-weight: 300;
+    padding-top: 6px;
+}
+
+.info--buttons {
+    background-color: #1A1B21;
+    padding-top: 10px;
+}
+
+.info--buttons > * {
+    width: 40%;
+    margin: 10px;
+    height: 36px;
+    border: none;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.info--buttons--linkedin {
+    background-color: #5093E2;
+    color: white;
+}
+
+.info--buttons--linkedin:hover {
+    cursor: pointer;
+    background-color: #3d88df;
+}
+
+.info--buttons--email:hover {
+    cursor: pointer;
+    background-color: #dbdbdb;
+}
+
+.info--buttons--text {
+    padding-left: 6px;
+}
+
+/* About and Interests sections */
+.about, .interests {
+    background-color: #1A1B21;
+    padding: 0 24px;
+}
+
+.about--title, .interests--title {
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.about--text, .interests--text {
+    color: #DCDCDC;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #161619;
+    width: 100%;
+    padding: 20px 0;
+    /* text-align: center; */
+    font-size: 25px;
+    color: #918E9B;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 0 0 16px 16px;
+}
