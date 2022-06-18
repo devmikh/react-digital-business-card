@@ -4,7 +4,7 @@ body {
 }
 
 * {
-    transition: all 0.2s;
+    box-sizing: border-box;
 }
 
 .container {
@@ -101,7 +101,7 @@ body {
 }
 
 .info--website {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 300;
     padding-top: 6px;
 }
@@ -129,6 +129,7 @@ body {
 }
 
 .info--buttons > * {
+    text-decoration: none;
     width: 40%;
     margin: 10px;
     height: 36px;
@@ -161,6 +162,11 @@ body {
 #dark .info--buttons--linkedin:hover {
     cursor: pointer;
     background-color: #3f76b6;
+}
+
+.info--buttons--email {
+    color: black;
+    background-color: white;
 }
 
 #light .info--buttons--email {
@@ -221,6 +227,10 @@ body {
     color: #DCDCDC;
 }
 
+.interests {
+    padding-bottom: 16px;
+}
+
 /* Footer */
 
 .footer {
@@ -232,6 +242,15 @@ body {
     justify-content: center;
     gap: 16px;
     border-radius: 0 0 16px 16px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer a:hover {
+    color: #75737c;
 }
 
 #light .footer {
