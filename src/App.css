@@ -1,3 +1,7 @@
+html, body, #root, .App {
+    height: 100%;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -48,6 +52,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 /* Info section */
@@ -267,4 +272,10 @@ body {
 
 #dark .footer {
     background-color: #161619;
+}
+
+@media only screen and (min-height: 810px) {
+    .container {
+        height: 100%;
+    }
 }
