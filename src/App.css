@@ -245,8 +245,8 @@ body {
 .footer {
     color: #918E9B;
     width: 100%;
-    padding: 20px 0;
-    font-size: 25px;
+    padding: 16px 0;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     gap: 16px;
