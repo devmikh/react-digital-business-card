@@ -2,7 +2,7 @@
   "name": "react-digital-business-card",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://devmikh.github.io",
+  "homepage": "https://devmikh.github.io/react-digital-business-card/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
